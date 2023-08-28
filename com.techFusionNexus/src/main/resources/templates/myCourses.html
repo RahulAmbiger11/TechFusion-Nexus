@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>My Courses</title>
+    <link rel="stylesheet" href="css/myCourses.css">
+</head>
+
+<body>
+
+    <h3 class="tableheader">MY COURSES</h3>
+    <div style="background-color: white; width: 80%; margin: auto;">
+        <table class="table table-success table-striped table-bordered" border="7">
+            <thead>
+                <tr>
+                    <th scope="col">Course Id</th>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Course Price</th>
+                    <th scope="col">Lessons</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="course:${courseList}">
+                    <td th:text="${course.courseId}"></td>
+                    <td th:text="${course.courseName}"></td>
+                    <td th:text="${course.coursePrice}"></td>
+                    <td>
+                        <span th:each="lesson, lessonStat : ${course.lessonList}">
+                            <a th:href="@{/viewLesson(lessonId=${lesson.lessonId})}"
+                                th:text="${lesson.lessonName}"></a><span th:if="${!lessonStat.last}">, </span>
+                        </span>
+
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <a href="/studentHome" class="stucls">Go to Home</a>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>My Courses</title>
+    <link rel="stylesheet" href="css/courses.css">
+
+</head>
+
+<body>
+    <h3 class="tableheader">COURSES</h3>
+    <div style="background-color: white; width: 80%; margin: auto;">
+        <table class="table table-success table-striped table-bordered" border="7">
+            <thead>
+                <tr>
+                    <th>Course ID</th>
+                    <th>Course Name</th>
+                    <th>Course Price</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="course:${courseList}">
+                    <td th:text="${course.courseId}"></td>
+                    <td th:text="${course.courseName}"></td>
+                    <td th:text="${course.coursePrice}"></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <br>
+        <a href="/trainerHome" class="tracls">Go to Home</a>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #00ac96;
+
+}
+
+.content {
+    margin: 8%;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .05);
+}
+
+.register-text {
+    font-style: normal;
+    font-weight: 600 !important;
+
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.55;
+    border-color:#00ac96 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    color: #495057;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-class {
+    border-color: #00ac96;
+    color: #00ac96;
+    
+    
+        
+}
+
+a:hover{	
+	color: #fff;
+}
+
+#logina:hover{	
+	color: #00ac96;
+    text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+	color: #00ac96;
+}
+
+.btn-class:hover{
+    background-color:#00ac96;
+    color: #fff;
+}
+
+img{
+    max-width: 35%;
+    min-height: 45%;
+}
+
+#aluser {
+    color:black;
+    font-size: 1rem;
+}
+
+
+.container{
+    display:flex;
+    justify-content:safe;
+    align-items: baseline;
+    padding-left: 0;
+    
+  }
+
+  .form-check-input {
+    align-items: first baseline;
+    text-align: center;
+  }
+
+
+  
+  
+
+
