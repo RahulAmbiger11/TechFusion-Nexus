@@ -2,7 +2,7 @@
 TechFusion Nexus (Online Learning Platform)
 
 #Tech Stack:
-→ Backend:
+Backend:
 - Tool Used: Spring Tool Suite 4(STS-4), MySQL DB, Postman API
 
 - Java/J2EE
@@ -10,7 +10,7 @@ TechFusion Nexus (Online Learning Platform)
 - Springboot
 - Hibernate
 
-→ Dependencies Used:
+Dependencies Used:
 - Springboot DevTools
 - Spring Data JPA
 - MySQL Driver
@@ -19,7 +19,7 @@ TechFusion Nexus (Online Learning Platform)
 - razorpay-java dependency(Payments)
 
 
-→ Frontend:
+Frontend:
 HTML5
 CSS3,
 Bootstrap(templates)
@@ -27,17 +27,17 @@ JS(ES6)
 
 
 
-→ Database:
+Database:
 - MySQL DB
 
-→ Client:
+Client:
 - Postman API
 
 
-→ XML(Configuration Information)
-→ Build Tool - Maven
+- XML(Configuration Information)
+- Build Tool - Maven
 
-→ Internally using "Servlets"
+- Internally using "Servlets"
 
 Sections of Project:
 1. Sign Up/Register
