@@ -1,7 +1,7 @@
 ## TechFusion-Nexus
 TechFusion Nexus (Online Learning Platform)
 
-#Tech Stack:
+# Tech Stack:
 Backend:
 - Tool Used: Spring Tool Suite 4(STS-4), MySQL DB, Postman API
 
